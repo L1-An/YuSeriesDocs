@@ -1,0 +1,56 @@
+title: "智慧之书"
+
+#####################
+# # - border        #
+# S - self          #
+# P - previous page #
+# N - next page     #
+# @ - category icon #
+# B - progress      #
+#####################
+shape:
+  - '    S    '
+  - '#P@#@#@N#'
+  - '####B####'
+
+templates:
+  '#':
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+
+  S:
+    material: PLAYER_HEAD
+    name: "&a{{ player name }}"
+    lore:
+      - "&a个人资料"
+    shiny: true
+    feature:
+      - ==: Head
+        texture: "{{ player head }}"
+
+  # 这个 icon 不用定义 material, name, lore 等信息, 因为它生成的就是 category icon
+  '@':
+    material: AIR
+    feature:
+      - ==: Functional
+        keyword: Main:element
+
+  P:
+    material: ARROW
+    name: "&a上一页"
+    feature:
+      - ==: Functional
+        keyword: Previous
+
+  N:
+    material: ARROW
+    name: "&a下一页"
+    feature:
+      - ==: Functional
+        keyword: Next
+
+  B:
+    material: NAME_TAG
+    name: "&a总解锁进度"
+    lore:
+      - "{{ yui-query bar total }} &a{{ yui-query unlocked total }}&7/&a{{ yui-query total total }}"

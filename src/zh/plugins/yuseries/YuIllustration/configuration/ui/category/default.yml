@@ -1,0 +1,68 @@
+# 当在打开对应 category ui 时无法找到其对应配置, 则会使用此默认配置复制一份对应名称的配置
+# 换言之你可以在这里定义一个默认的 category ui 模板
+title: "智慧之书 | {category}"
+
+#####################
+# # - border        #
+# S - self          #
+# B - progress      #
+# P - previous      #
+# N - next          #
+# @ - entry icon    #
+# M - back main     #
+#####################
+shape:
+  - '#@@@@####'
+  - '#@@@@####'
+  - '#@@@@#SB#'
+  - '#@@@@####'
+  - 'P@@@@N###'
+  - 'M@@@@####'
+
+templates:
+  '#':
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+
+  '@':
+    material: AIR
+    feature:
+      - ==: Functional
+        keyword: Category:element
+
+  S:
+    material: PLAYER_HEAD
+    name: "&a{{ player name }}"
+    lore:
+      - "&a个人资料"
+    shiny: true
+    feature:
+      - ==: Head
+        texture: "{{ player head }}"
+
+  B:
+    material: NAME_TAG
+    name: "&a解锁进度"
+    lore:
+      - "{{ yui-query bar {{ &category-id }} }} &a{{ yui-query unlocked {{ &category-id }} }}&7/&a{{ yui-query total {{ &category-id }} }}"
+
+  P:
+    material: ARROW
+    name: "&a上一页"
+    feature:
+      - ==: Functional
+        keyword: Previous
+
+  N:
+    material: ARROW
+    name: "&a下一页"
+    feature:
+      - ==: Functional
+        keyword: Next
+
+  M:
+    material: ARROW
+    name: "&a返回主页"
+    feature:
+      - ==: Functional
+        keyword: Category:main

@@ -1,0 +1,88 @@
+# 条目的 id, 同一分类下不可以重复
+example:
+  # 对应的类别, 默认为 default
+  category: default
+  # 条目的显示名称, 将会显示在 ui 里
+  name: "&6Default entry"
+  # 当未解锁时是否显示在 ui 里
+  show: true
+  # 在 ui 中的位置, 越小越靠前, 若与别的条目出现相同的值则会随机排序, 默认为 999
+  order: 0
+  # 该条目的 icon
+  icon:
+    name: "&6example"
+    material: WOODEN_SWORD
+    custom-model-data: 10001
+    shiny: true # 是否闪烁, 也就是附魔效果那样的
+    lore:
+      - "&7This is an example item."
+  # 解锁条件, 若不存在则默认自动解锁
+  # 需要将所有 type 都满足时才会解锁这个条目
+  unlock:
+    # 解锁类型, 可选类型可以在 wiki 中查看
+    - type: "pickup item"
+      # 相关数据
+      data:
+        # 物品名称
+        name: "example"
+        # 物品 lore
+        lore: "example"
+        # 物品 nbt, 默认格式为 "@yuillustration-item-pickup = example"
+        nbt: "example"
+      # 当满足该 condition 时, 就代表该解锁类型完成
+      condition: |-
+        check yui-item total-amount == 5
+      # 当这个解锁器完成时, 就会触发 then 里的脚本
+      then: |-
+        yui-item take
+    - type: "kill mythic mob"
+      data:
+        # mythic mob 的 id
+        id: "SkeletalKnight"
+      condition: |-
+        check mythic-mob total-amount == 5
+      then: |-
+        tell inline "you killed 5 {{ &id }}"
+    - type: "kill mythic mob"
+      data:
+        id: "SkeletalKing"
+      then: |-
+        tell inline "you have been killed {{ &id }}"
+  # 当解锁后, 将会触发奖励
+  reward:
+    # kether 脚本，脚本列表可以在 https://kether.tabooproject.org/list.html 查看
+    # 常用脚本可以在 wiki 查看: https://l1-an.github.io/YusDoc/en/docs/MinecraftPlugins/YuIllustration/Basic%20Document/kether
+    # 或者在 discord 频道获取帮助: https://discord.gg/SzPBHGttaR
+    content: |-
+      command inline "give {{ sender }} diamond 1" as op
+      tell color inline "&aYou have unlocked a entry named &e{{ &entry }}!"
+    compat:
+      # mmocore 属性奖励
+      mmocore:
+        - attribute: "strength" # 属性名称, 若该属性名查找不到则不会给予属性
+          amount: 100 # 给予属性点的数量, 默认为 1
+      # mythiclib 属性奖励(支持 mmoitems)
+      mythiclib:
+        - attribute: "attack-damage"
+          amount: 100
+  
+test1:
+  category: default
+  show: true
+  order: 1
+  icon:
+    material: WOODEN_PICKAXE
+
+test2:
+  category: default
+  show: true
+  order: 2
+  icon:
+    material: IRON_INGOT
+
+test3:
+  category: default
+  show: true
+  order: 3
+  icon:
+    material: DIAMOND

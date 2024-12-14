@@ -1,0 +1,52 @@
+# Traduire par ChatGPT, c'est peut-être inexact
+
+prefix: '&3Yu&bIllustration &7|'
+
+command-reload: '{prefix} &aRechargement réussi'
+command-reload-fail: '{prefix} &cÉchec du rechargement'
+command-version: '{prefix} &aVersion actuelle du plugin : &e{version}'
+debug: '{prefix} &aMode débogage activé - {status}'
+
+load-category: '{prefix} &aChargement réussi de &e{count} &acatégories'
+load-entry: '{prefix} &aChargement réussi de &e{count} &aentrées d’illustration'
+load-unlocker: '{prefix} &aChargement réussi de &e{count} &adébloqueurs'
+
+command-unlock-success: '{prefix} &aDéverrouillage réussi - catégorie {category}&e, entrée {entry}&e'
+command-unlock-has-unlocked: '{prefix} &cL’entrée est déjà déverrouillée, échec du déverrouillage'
+command-deunlock-success: '{prefix} &aAnnulation du déverrouillage réussie - catégorie {category}&e, entrée {entry}&e'
+command-deunlock-not-unlocked: '{prefix} &cL’entrée n’est pas déverrouillée, échec de l’annulation'
+
+command-migrate-v1-fail: '{prefix} &cÉchec de la migration. Veuillez placer l’ancien fichier de données dans le dossier &e/YuIllustration/migrate &cou les données ont déjà été migrées'
+command-migrate-v1-success: '{prefix} &aMigration réussie, &e{count} &aentrées migrées'
+command-migrate-mmoitems-success: '{prefix} &aMigration réussie de &e{type} &e{id} &avers une entrée d’illustration, stockée dans la catégorie &e{category}'
+command-migrate-mmoitems-not-hooked: '{prefix} &cÉchec de la migration car le plugin &eMMOItems &cn’est pas détecté'
+command-migrate-mmoitems-duplicate: '{prefix} &cÉchec de la migration, car une entrée avec l’id &e{id} &cexiste déjà dans la catégorie &e{category}'
+command-migrate-mmoitems-not-found: '{prefix} &cÉchec de la migration, l’article de type &e{type} &cavec l’id &e{id} &cn’est pas trouvé'
+command-migrate-zaphkiel-success: '{prefix} &aMigration réussie de &e{id} &avers une entrée d’illustration, stockée dans la catégorie &e{category}'
+command-migrate-zaphkiel-duplicate: '{prefix} &cÉchec de la migration, car une entrée avec l’id &e{id} &cexiste déjà dans la catégorie &e{category}'
+command-migrate-zaphkiel-not-found: '{prefix} &cÉchec de la migration, l’article avec l’id &e{id} &cn’est pas trouvé'
+command-migrate-zaphkiel-not-hooked: '{prefix} &cÉchec de la migration car le plugin &eZaphkiel &cn’est pas détecté'
+command-migrate-success-then-reload: '{prefix} &aMigration réussie, cliquez sur [&e&l\[Recharger le plugin\]](cmd=/yuillustration reload;h=&eCliquez pour recharger le plugin) &apour appliquer les modifications'
+
+command-query-unlocked-header: '{prefix} &aEntrées déverrouillées dans la catégorie &e{category} : &e{count}'
+command-query-unlocked-total-header: '{prefix} &aToutes les entrées déverrouillées : &e{count}'
+command-query-unlocked-entry-info: ' &a- &e{entry}'
+command-query-unlocked-entry-info-with-category: ' &a- &b{category}&f : &e{entry}'
+command-query-list-entry-header: '{prefix} &aListe des entrées d’illustration chargées :'
+command-query-list-entry-info: ' &a- &e{category}&f : &e{entry}'
+command-query-list-category-header: '{prefix} &aListe des catégories d’illustration chargées :'
+command-query-list-category-info: ' &a- &e{category}'
+command-query-empty: ' &a- &cAucun'
+# Peut seulement aller à la page suivante
+command-query-page-0: '&8\[Page précédente\] &7{now-page} / {max-page} [&a\[Page suivante\]](cmd=/yuillustration query {next};h=Cliquez pour changer de page)'
+# Peut seulement aller à la page précédente
+command-query-page-1: '[&a\[Page précédente\]](cmd=/yuillustration query {previous};h=Cliquez pour changer de page) &7{now-page} / {max-page} &8\[Page suivante\]'
+# Peut aller à la fois à la page précédente et suivante
+command-query-page-2: '[&a\[Page précédente\]](cmd=/yuillustration query {previous};h=Cliquez pour changer de page) &7{now-page} / {max-page} [&a\[Page suivante\]](cmd=/yuillustration query {next};h=Cliquez pour changer de page)'
+
+entry-unlock: '{prefix} &aVous avez déverrouillé l’entrée &e{entry} &adans la catégorie &e{category}'
+category-complete: '{prefix} &aVous avez déverrouillé toutes les entrées dans la catégorie &e{category}'
+
+# Statut de déverrouillage affiché dans l'UI
+unlocked: '§a✔ Déverrouillé'
+locked: '§c✘ Verrouillé'
