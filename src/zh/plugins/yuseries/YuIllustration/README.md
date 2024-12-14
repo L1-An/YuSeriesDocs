@@ -11,9 +11,8 @@ tag: "Premium"
 
 > 理論支持版本: 1.12 - 1.21
 
-YuIllustration 是一款基於 **TabooLib6.2** 開發的自定義圖鑑插件  
-項目開發時間  
-[![wakatime](https://wakatime.com/badge/user/018b3a75-57d0-4174-82b2-b604a838b205/project/9fc859a1-c6cd-41df-ace5-99cd743b4d20.svg)](https://wakatime.com/badge/user/018b3a75-57d0-4174-82b2-b604a838b205/project/9fc859a1-c6cd-41df-ace5-99cd743b4d20)
+YuIllustration 是一款基於 **TabooLib6.2** 開發的自定義圖鑑插件,  
+但不止圖鑑, 支援無限類別, 擁有豐富的解鎖條件, 可高度客製化.
 
 ## 價格
 
