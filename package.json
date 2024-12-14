@@ -1,0 +1,28 @@
+{
+  "name": "yusdoc",
+  "description": "Document of YuSeries",
+  "version": "2.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.19",
+    "@vuepress/plugin-copyright": "2.0.0-rc.66",
+    "@vuepress/plugin-git": "2.0.0-rc.66",
+    "@vuepress/plugin-markdown-image": "2.0.0-rc.66",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.66",
+    "sass-embedded": "^1.83.0",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.19",
+    "vuepress-theme-hope": "2.0.0-rc.64"
+  },
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
+  "dependencies": {
+    "nodejs-jieba": "^0.2.1"
+  }
+}
