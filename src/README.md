@@ -1,7 +1,7 @@
 ---
 home: true
-icon: home
-title: Home page
+icon: ic:outline-home
+title: HomePage
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
@@ -16,7 +16,7 @@ actions:
     type: primary
 
 highlights:
-  - header: YuSeries 系列插件
+  - header: YuSeries Plugins
     # image: /assets/image/features.svg
     # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
@@ -46,7 +46,7 @@ highlights:
         details: Add variable level system to your server, support multiple levels, custom experience value formula, and script when upgrading.
         link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
 
-  - header: 合作夥伴插件
+  - header: Partner Plugins
     features:
       - title: Adyeshach
         icon: mingcute:eye-fill

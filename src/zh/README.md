@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: ic:outline-home
 title: 主頁
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg

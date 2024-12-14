@@ -11,9 +11,9 @@ export default hopeTheme({
     url: "https://github.com/l1-an",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconify",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -69,19 +69,25 @@ export default hopeTheme({
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "L1-An/YuSeriesDocs",
+      repoId: "R_kgDONdndiw",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDONdndi84ClOoz",
     },
 
     components: {
       components: ["Badge", "VPCard"],
     },
 
-    // copyright: { global: true },
+    docsearch: {
+      appId: "",
+      apiKey: "",
+      indexName: "",
+    },
 
-    // git: {},
+    copyright: { global: true },
+
+    git: {},
 
     // Install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
