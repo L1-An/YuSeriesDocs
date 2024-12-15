@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { cut } from "nodejs-jieba";
 
 export default hopeTheme({
   hostname: "https://docs.yuseries.org",
@@ -79,10 +80,20 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    docsearch: {
-      appId: "ZZFI90R6KR",
-      apiKey: "292413dfd73d3461d519aab9412a0f2e",
-      indexName: "yuseries",
+    // docsearch: {
+    //   appId: "ZZFI90R6KR",
+    //   apiKey: "292413dfd73d3461d519aab9412a0f2e",
+    //   indexName: "yuseries",
+    // },
+
+    slimsearch: {
+      indexContent: true,
+      indexLocaleOptions: {
+        '/zh/': {
+          tokenize: (text, fieldName) =>
+            fieldName === 'id' ? [text] : cut(text, true),
+        },
+      },
     },
 
     copyright: { global: true },

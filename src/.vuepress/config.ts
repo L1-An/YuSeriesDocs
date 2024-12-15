@@ -3,10 +3,6 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  head: [
-    ['meta', { name: 'robots', content: 'INDEX, FOLLOW' }],
-  ],
-
   base: "/",
 
   locales: {
