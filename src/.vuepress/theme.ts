@@ -80,9 +80,9 @@ export default hopeTheme({
     },
 
     docsearch: {
-      appId: "",
-      apiKey: "",
-      indexName: "",
+      appId: "ZZFI90R6KR",
+      apiKey: "292413dfd73d3461d519aab9412a0f2e",
+      indexName: "yuseries",
     },
 
     copyright: { global: true },
