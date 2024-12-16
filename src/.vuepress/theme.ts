@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "L1-An/YuSeriesDocs",
 
   docsDir: "src",
 
@@ -43,6 +43,10 @@ export default hopeTheme({
     "/zh/": {
       // navbar
       navbar: zhNavbar,
+      navbarLocales: {
+        langName: "繁體中文",
+        selectLangAriaLabel: "選擇語言",
+      },
 
       // sidebar
       sidebar: zhSidebar,
@@ -53,7 +57,7 @@ export default hopeTheme({
 
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        editLink: "在 GitHub 上編輯此頁",
       },
     },
   },

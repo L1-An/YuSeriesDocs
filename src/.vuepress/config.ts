@@ -13,9 +13,9 @@ export default defineUserConfig({
       description: "YuSeries Docs",
     },
     "/zh/": {
-      lang: "zh-CN",
-      title: "YuSeries Docs",
-      description: "YuSeries Docs",
+      lang: "zh-TW",
+      title: "YuSeries 文檔",
+      description: "YuSeries 文檔",
     },
   },
 
