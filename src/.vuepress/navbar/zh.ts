@@ -10,7 +10,7 @@ export const zhNavbar = navbar([
     prefix: "/zh/plugins/",
     children: [
       {
-        text: "YuSeries插件",
+        text: "YuSeries 插件",
         icon: "lightbulb",
         children: [
           { text: "YuIllustration", icon: "material-symbols:book-outline", link: "/zh/plugins/yuseries/YuIllustration/"},

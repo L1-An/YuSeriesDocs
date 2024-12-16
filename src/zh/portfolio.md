@@ -20,7 +20,7 @@ val learningLanguage = listOf("Swift", "Python")
 
 @tab Discord
 
-[L1An](https://discord.com/users/l1_an.)
+[L1An](https://discord.com/users/1092505635767205948)
 
 @tab Discord Guild
 

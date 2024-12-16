@@ -6,5 +6,5 @@ dir:
 ---
 
 <div class="catalog-display-container">
-  <Catalog base="/zh/plugins/yuseries/YuIllustration/ui/"/>
+  <Catalog base="/plugins/yuseries/YuIllustration/ui/"/>
 </div>
