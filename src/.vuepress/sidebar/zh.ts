@@ -6,6 +6,8 @@ export const zhSidebar = sidebar({
     "portfolio",
     "discord_present",
     "plugins/",
+    "general/",
   ],
   "/zh/plugins/": "structure",
+  "/zh/general/": "structure",
 });

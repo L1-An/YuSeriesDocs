@@ -4,6 +4,7 @@ export const enNavbar = navbar([
   "/",
   "/portfolio",
   "/plugins/",
+  "/general/",
   {
     text: "Plugins List",
     icon: "tabler:puzzle",
@@ -31,5 +32,10 @@ export const enNavbar = navbar([
         ],
       },
     ],
+  },
+  {
+    text: "Join Discord",
+    icon: "ic:baseline-discord",
+    link: "https://discord.com/invite/SzPBHGttaR",
   }
 ]);

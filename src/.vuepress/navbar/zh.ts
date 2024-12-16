@@ -4,6 +4,7 @@ export const zhNavbar = navbar([
   "/zh/",
   "/zh/portfolio",
   "/zh/plugins/",
+  "/zh/general/",
   {
     text: "插件列表",
     icon: "tabler:puzzle",
@@ -31,5 +32,10 @@ export const zhNavbar = navbar([
         ],
       },
     ],
-  }
+  },
+  {
+    text: "加入 Discord",
+    icon: "ic:baseline-discord",
+    link: "https://discord.com/invite/SzPBHGttaR",
+  },
 ]);
