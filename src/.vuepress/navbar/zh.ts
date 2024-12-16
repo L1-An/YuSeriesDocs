@@ -10,10 +10,11 @@ export const zhNavbar = navbar([
     prefix: "/zh/plugins/",
     children: [
       {
-        text: "YuSeries",
+        text: "YuSeries插件",
         icon: "lightbulb",
         children: [
           { text: "YuIllustration", icon: "material-symbols:book-outline", link: "/zh/plugins/yuseries/YuIllustration/"},
+          { text: "Sortilege", icon: "hugeicons:power-service", link: "/zh/plugins/yuseries/Sortilege/"},
           { text: "YuSpawnerHologram", icon: "fluent-emoji-high-contrast:alien-monster", link: "/zh/plugins/yuseries/YuSpawnerHologram/"},
           { text: "YuVarieLevel", icon: "ion:water", link: "/zh/plugins/yuseries/YuVarieLevel/"},
           { text: "YuBattleMusic", icon: "mingcute:music-fill", link: "/zh/plugins/yuseries/YuBattleMusic/"},
@@ -21,7 +22,7 @@ export const zhNavbar = navbar([
         ],
       },
       {
-        text: "Partner",
+        text: "合作夥伴插件",
         icon: "lightbulb",
         children: [
           { text: "Adyeshach", icon: "mingcute:eye-fill", link: "/zh/plugins/partner/Adyeshach/"},

@@ -10,10 +10,11 @@ export const enNavbar = navbar([
     prefix: "/plugins/",
     children: [
       {
-        text: "YuSeries",
+        text: "YuSeries Plugins",
         icon: "lightbulb",
         children: [
           { text: "YuIllustration", icon: "material-symbols:book-outline", link: "/plugins/yuseries/YuIllustration/"},
+          { text: "Sortilege", icon: "hugeicons:power-service", link: "/plugins/yuseries/Sortilege/"},
           { text: "YuSpawnerHologram", icon: "fluent-emoji-high-contrast:alien-monster", link: "/plugins/yuseries/YuSpawnerHologram/"},
           { text: "YuVarieLevel", icon: "ion:water", link: "/plugins/yuseries/YuVarieLevel/"},
           { text: "YuBattleMusic", icon: "mingcute:music-fill", link: "/plugins/yuseries/YuBattleMusic/"},
@@ -21,7 +22,7 @@ export const enNavbar = navbar([
         ],
       },
       {
-        text: "Partner",
+        text: "Partner Plugins",
         icon: "lightbulb",
         children: [
           { text: "Adyeshach", icon: "mingcute:eye-fill", link: "/plugins/partner/Adyeshach/"},

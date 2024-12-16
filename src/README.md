@@ -24,44 +24,49 @@ highlights:
       - title: YuIllustration
         icon: material-symbols:book-outline
         details: A powerful illustration plugin, but not only for illustrations, unlimited categories, rich unlock conditions, and highly customizable.
-        link: https://theme-hope.vuejs.press/zh/guide/feature/catalog.html
+        link: /plugins/yuseries/YuIllustration/
 
       - title: YuSpawnerHologram
         icon: fluent-emoji-high-contrast:alien-monster
         details: Add holograms to display the respawn time for your MythicMobsSpawner.
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+        link: /plugins/yuseries/YuSpawnerHologram/
 
       - title: YuBattleMusic
         icon: mingcute:music-fill
         details: Add battle music to your server, support single monster, global music, and highly customizable.
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+        link: /plugins/yuseries/YuBattleMusic/
 
       - title: YuItemAction
         icon: grommet-icons:action
         details: A lightweight and simple item execution script action plugin.
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
+        link: /plugins/yuseries/YuItemAction/
 
       - title: YuVarieLevel
         icon: ion:water
         details: Add variable level system to your server, support multiple levels, custom experience value formula, and script when upgrading.
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
+        link: /plugins/yuseries/YuVarieLevel/
+      
+      - title: Sortilege
+        icon: hugeicons:power-service
+        details: A powerful attribute plugin, multiple built-in attributes, and support custom attributes.
+        link: /plugins/yuseries/Sortilege/
 
   - header: Partner Plugins
     features:
       - title: Adyeshach
         icon: mingcute:eye-fill
         details: A low-energy virtual entity plugin, a more advanced NPC plugin
-        link: https://github.com/taboolib/Adyeshach
+        link: /plugins/partner/Adyeshach/
       
       - title: Chemdah
         icon: emojione-monotone:mouth
         details: A next-generation task and dialogue plugin
-        link: https://github.com/taboolib/Chemdah
+        link: /plugins/partner/Chemdah/
       
       - title: Zaphkiel
         icon: ri:sword-line
         details: A powerful item library plugin, front-end and back-end separation design, virtual lore, and more...
-        link: https://github.com/taboolib/Zaphkiel
+        link: /plugins/partner/Zaphkiel/
 
 copyright: Copyright © 2023-2024 L1An
 ---
