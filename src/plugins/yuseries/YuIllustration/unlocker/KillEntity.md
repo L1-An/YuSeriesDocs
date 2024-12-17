@@ -18,7 +18,7 @@ This unlocker will trigger when a player **kills a vanilla entity**.
 
 - Type: `string`
 - Default: `none`
-- Description: The type of the entity killed. See all entity type names [here](https://bukkit.windit.net/javadoc/org/bukkit/entity/EntityType.html).
+- Description: The type of the entity killed. See all entity type names [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html).
 
 @tab Condition
 
