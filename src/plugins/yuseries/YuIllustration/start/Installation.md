@@ -1,7 +1,6 @@
 ---
 title: Installation
-dir:
-  order: 1
+order: 1
 ---
 
 1. After purchasing the plugin, obtain it from the [Discord delivery channel](https://discord.com/channels/1166519479379963924/1308535596477583420) and install it in `./plugins`  

@@ -1,16 +1,16 @@
 ---
-tag: ["Zaphkiel"]
+tag: ["MythicItems"]
 ---
 
-# Pickup Zap Item
+# Pickup MythicItem
 
-This unlocker will trigger when a player **picks up a Zaphkiel item**.
+This unlocker will trigger when a player **picks up a mythic item**.
 
 ::: tabs
 
 @tab id
 
-`pickup zap item`
+`pickup mythic item`
 
 @tab Data
 
@@ -18,7 +18,7 @@ This unlocker will trigger when a player **picks up a Zaphkiel item**.
 
 - Type: `string`
 - Default: `none`
-- Description: The id of the Zaphkiel item.
+- Description: The id of the mythic item.
 
 @tab Condition
 
@@ -34,9 +34,10 @@ Syntax:
 @tab Example
 
 ```yaml
-- type: "pickup zap item"
+- type: "pickup mythic item"
   data:
-    id: "test"
+    id: "default_item"
+  # When the player picks up 5 times, the unlocker will trigger
   condition: |-
     check yui-item total-amount == 5
 ```

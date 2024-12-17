@@ -5,6 +5,7 @@ export const zhSidebar = sidebar({
     "/zh-TW/",
     "portfolio",
     "discord_present",
+    "purchase_terms",
     "plugins/",
     "general/",
   ],

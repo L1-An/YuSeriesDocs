@@ -8,11 +8,36 @@ This unlocker will trigger when a player **picks up an MMOItem**.
 
 ::: tabs
 
-@tab Id
+@tab id
 
 `pickup mmoitem`
 
-Example:
+@tab Data
+
+## type <Badge text="Required" type="tip" />
+
+- Type: `string`
+- Default: `none`
+- Description: The type of the MMOItem.
+
+## id <Badge text="Required" type="tip" />
+
+- Type: `string`
+- Default: `none`
+- Description: The id of the MMOItem.
+
+@tab Condition
+
+## yui-item
+
+id: `yui-item` / `item`
+
+Syntax:
+- `item take` removes the picked-up item from the player's inventory.
+- `item total-amount` returns the total amount of the picked-up item.
+- `item pick-amount` returns the amount of items picked up this time.
+
+@tab Example
 
 ```yaml
 - type: "pickup mmoitem"
@@ -23,25 +48,4 @@ Example:
     check yui-item total-amount == 5
 ```
 
-@tab Data
-
-Supported custom data
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `type` | `string` | Type of the MMOItem |
-| `id` | `string` | ID of the MMOItem |
-
-@tab Condition
-
-Supported additional condition statements
-
-## yui-item
-
-id: `yui-item` / `item`  
-
-`item take` removes the picked-up item from the player's inventory  
-`item total-amount` returns the total number of items picked up  
-`item pick-amount` returns the number of items picked up this time  
-
-::: 
+:::

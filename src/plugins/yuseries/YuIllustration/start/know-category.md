@@ -1,7 +1,6 @@
 ---
 title: Understanding Categories
-dir:
-  order: 2
+order: 2
 ---
 
 The YuIllustration plugin uses a category management system, allowing you to better organize and display different types of illustration content.

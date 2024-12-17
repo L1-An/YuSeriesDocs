@@ -81,7 +81,7 @@ templates:
         keyword: Previous
 ```
 
-A UI icon configuration must contain `material` to run normally, see [here](https://bukkit.windit.net/javadoc/org/bukkit/Material.html) for the list of all Materials.  
+A UI icon configuration must contain `material` to run normally, see [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) for the list of all Materials.  
 
 Each plugin provides different feature functional keywords, you can check them in the corresponding plugin's wiki.
 

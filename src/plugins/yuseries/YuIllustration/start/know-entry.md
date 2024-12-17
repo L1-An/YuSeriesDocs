@@ -1,7 +1,6 @@
 ---
 title: Understanding Entries
-dir:
-  order: 3
+order: 3
 ---
 
 The YuIllustration plugin uses an entry system to manage specific collection items, allowing players to track and complete various collection goals.

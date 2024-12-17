@@ -8,11 +8,28 @@ This unlocker will trigger when a player **crafts a vanilla item**.
 
 ::: tabs
 
-@tab Id
+@tab id
 
 `craft item`
 
-Example:
+@tab Data
+
+## type <Badge text="Required" type="tip" />
+
+- Type: `string`
+- Default: `none`
+- Description: The type of the item crafted. See all item type names [here](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html).
+
+@tab Condition
+
+## craft-item
+
+id: `yui-craft-item` / `craft-item`
+
+Syntax:
+- `craft-item total-amount` returns the total number of the crafted item.
+
+@tab Example
 
 ```yaml
 - type: "craft item"
@@ -22,22 +39,4 @@ Example:
     check craft-item total-amount == 5
 ```
 
-@tab Data
-
-Supported custom data
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `type` | `string` | Type of item crafted, see all item type names [here](https://bukkit.windit.net/javadoc/org/bukkit/Material.html) |
-
-@tab Condition
-
-Supported additional condition statements
-
-## craft-item
-
-id: `yui-craft-item` / `craft-item`
-
-`craft-item total-amount` returns the total number of the crafted item
-
-::: 
+:::

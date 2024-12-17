@@ -5,6 +5,7 @@ export const enSidebar = sidebar({
     "/",
     "portfolio",
     "discord_present",
+    "purchase_terms",
     "plugins/",
     "general/",
   ],

@@ -8,11 +8,30 @@ This unlocker will trigger when a player **kills a MythicMob entity**.
 
 ::: tabs
 
-@tab Id
+@tab id
 
 `kill mythic mob`
 
-Example:
+@tab Data
+
+## id <Badge text="Required" type="tip" />
+
+- Type: `string`
+- Default: `none`
+- Description: The id of the MythicMob.
+
+@tab Condition
+
+## mythic-mob
+
+id: `yui-mythic-mob` / `mythic-mob`
+
+Syntax:
+- `mythic-mob total-amount` returns the total number of kills.
+- `mythic-mob id` returns the id of the entity killed.
+- `mythic-mob name` returns the name of the entity killed.
+
+@tab Example
 
 ```yaml
 - type: "kill mythic mob"
@@ -21,25 +40,5 @@ Example:
   condition: |-
     check mythic-mob total-amount == 5
 ```
-
-@tab Data
-
-Supported custom data
-
-| Name | Type | Description |
-| --- | --- | --- |
-| `id` | `string` | ID of the MythicMob |
-
-@tab Condition
-
-Supported additional condition statements
-
-## mythic-mob
-
-id: `yui-mythic-mob` / `mythic-mob`  
-
-`mythic-mob total-amount` returns the total number of kills  
-`mythic-mob id` returns the id of the entity killed  
-`mythic-mob name` returns the name of the entity killed  
 
 ::: 

@@ -1,7 +1,6 @@
 ---
 title: Commands
-dir:
-  order: 4
+order: 4
 ---
 
 ::: tip

@@ -1,7 +1,6 @@
 ---
 title: 安裝
-dir:
-  order: 1
+order: 1
 ---
 
 1. 購買插件後, 在 [Discord取貨頻道](https://discord.com/channels/1166519479379963924/1308535596477583420) 獲取插件並將其安裝到 `./plugins` 中  

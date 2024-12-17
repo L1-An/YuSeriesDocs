@@ -1,7 +1,6 @@
 ---
 title: 認識類別
-dir:
-  order: 2
+order: 2
 ---
 
 YuIllustration 插件採用分類管理系統，讓你能夠更好地組織和展示不同類型的圖鑑內容。

@@ -1,5 +1,5 @@
 ---
-title: Discord 群組介紹
+title: Discord Guild Present
 icon: ic:baseline-discord
 ---
 

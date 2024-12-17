@@ -1,16 +1,16 @@
 ---
-tag: ["Zaphkiel"]
+tag: ["MythicItems"]
 ---
 
-# Pickup Zap Item
+# Pickup MythicItem
 
-當玩家**撿起 Zaphkiel 物品**時觸發
+當玩家**撿起 MythicItem**時觸發
 
 ::: tabs
 
 @tab id
 
-`pickup zap item`
+`pickup mythic item`
 
 @tab Data
 
@@ -18,7 +18,7 @@ tag: ["Zaphkiel"]
 
 - 類型: `string`
 - 默認值: `none`
-- 描述: Zaphkiel 物品的 id.
+- 描述: MythicItem 的 id.
 
 @tab Condition
 
@@ -34,9 +34,10 @@ id: `yui-item` / `item`
 @tab Example
 
 ```yaml
-- type: "pickup zap item"
+- type: "pickup mythic item"
   data:
-    id: "test"
+    id: "default_item"
+  # 當玩家撿起 5 次時，解鎖器將觸發
   condition: |-
     check yui-item total-amount == 5
 ```
