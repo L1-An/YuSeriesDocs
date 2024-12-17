@@ -7,5 +7,5 @@ dir:
 ---
 
 <div class="catalog-display-container">
-  <Catalog base="/zh/general/ui/"/>
+  <Catalog base="/zh-TW/general/ui/"/>
 </div>

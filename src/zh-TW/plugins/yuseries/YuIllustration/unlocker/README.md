@@ -17,5 +17,5 @@ dir:
 
 
 <div class="catalog-display-container">
-  <Catalog base="/zh/plugins/yuseries/YuIllustration/unlocker/"/>
+  <Catalog base="/zh-TW/plugins/yuseries/YuIllustration/unlocker/"/>
 </div>

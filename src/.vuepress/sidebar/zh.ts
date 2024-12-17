@@ -1,13 +1,13 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/zh/": [
-    "/zh/",
+  "/zh-TW/": [
+    "/zh-TW/",
     "portfolio",
     "discord_present",
     "plugins/",
     "general/",
   ],
-  "/zh/plugins/": "structure",
-  "/zh/general/": "structure",
+  "/zh-TW/plugins/": "structure",
+  "/zh-TW/general/": "structure",
 });

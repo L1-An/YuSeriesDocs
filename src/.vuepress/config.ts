@@ -12,7 +12,7 @@ export default defineUserConfig({
       title: "YuSeries Docs",
       description: "YuSeries Docs",
     },
-    "/zh/": {
+    "/zh-TW/": {
       lang: "zh-TW",
       title: "YuSeries 文檔",
       description: "YuSeries 文檔",

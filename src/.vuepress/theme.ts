@@ -33,20 +33,16 @@ export default hopeTheme({
       displayFooter: true,
 
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "Edit this page",
       },
     },
 
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/zh-TW/": {
       // navbar
       navbar: zhNavbar,
-      navbarLocales: {
-        langName: "繁體中文",
-        selectLangAriaLabel: "選擇語言",
-      },
 
       // sidebar
       sidebar: zhSidebar,
@@ -57,7 +53,7 @@ export default hopeTheme({
 
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上編輯此頁",
+        editLink: "編輯此頁",
       },
     },
   },
@@ -65,7 +61,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      "/zh-TW/demo/encrypt.html": ["1234"],
     },
   },
 
@@ -93,7 +89,7 @@ export default hopeTheme({
     slimsearch: {
       indexContent: true,
       indexLocaleOptions: {
-        '/zh/': {
+        '/zh-TW/': {
           tokenize: (text, fieldName) =>
             fieldName === 'id' ? [text] : cut(text, true),
         },
