@@ -1,5 +1,5 @@
 ---
-tag: ["vanilla"]
+tag: ["Vanilla"]
 ---
 
 # Craft Item
