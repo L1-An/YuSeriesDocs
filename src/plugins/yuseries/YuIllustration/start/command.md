@@ -10,8 +10,6 @@ Content wrapped in <span style="color: green;">**[]**</span> is optional, while 
 ::: tabs
 
 @tab Admin Commands
-
-`/yui api eval <content>` - Execute a kether script  
 `/yui debug` - Toggle debug mode  
 `/yui reload` - Reload the plugin  
 `/yui version` - Check plugin version  
@@ -36,5 +34,10 @@ Content wrapped in <span style="color: green;">**[]**</span> is optional, while 
 `/yui migrate v1` - Migrate v1 data to v2  
 `/yui migrate mmoitems <type> <id> <category>` - Migrate an item of a specified type and id from MMOItems to a specified entry  
 `/yui migrate zaphkiel <id> <category>` - Migrate an item with a specified id from Zaphkiel to a specified entry
+
+@tab API Commands
+
+`/yui api eval <content>` - Execute a kether script  
+`/yui api advancements` - Get all advancements' key
 
 ::: 

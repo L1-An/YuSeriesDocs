@@ -11,7 +11,6 @@ order: 4
 
 @tab 管理指令
 
-`/yui api eval <content>` - 執行一個 kether 腳本  
 `/yui debug` - 開啟/關閉 debug 模式  
 `/yui reload` - 重載插件  
 `/yui version` - 查看插件版本  
@@ -36,5 +35,10 @@ order: 4
 `/yui migrate v1` - 遷移 v1 版本數據到 v2  
 `/yui migrate mmoitems <type> <id> <category>` - 遷移 MMOItems 中指定類型指定 id 的物品到指定條目中  
 `/yui migrate zaphkiel <id> <category>` - 遷移 Zaphkiel 中指定 id 的物品到指定條目中
+
+@tab API 指令
+
+`/yui api eval <content>` - 執行一個 kether 腳本  
+`/yui api advancements` - 獲取所有進度的 key
 
 :::
