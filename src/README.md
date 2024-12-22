@@ -67,6 +67,11 @@ highlights:
         icon: ri:sword-line
         details: A powerful item library plugin, front-end and back-end separation design, virtual lore, and more...
         link: /plugins/partner/Zaphkiel/
+      
+      - title: NBTProhibition
+        icon: hugeicons:tools
+        details: A lightweight NBT removal tool, supporting multiple matching modes
+        link: /plugins/partner/NBTProhibition/
 
 copyright: Copyright © 2023-2024 L1An
 ---

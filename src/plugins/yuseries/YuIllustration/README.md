@@ -20,7 +20,7 @@ It is not just an illustration, it supports unlimited categories, has rich unloc
 | :------: | :---: |
 | Lifetime | 19.99EUR |
 
-To purchase, join [Yu's Studio](https://discord.com/invite/SzPBHGttaR) or contact me via [Discord](https://discord.com/users/l1_an.).
+To purchase, join [Yu's Studio](https://discord.com/invite/SzPBHGttaR) or contact me via [Discord](https://discord.com/users/1092505635767205948).
 
 ## Features
 

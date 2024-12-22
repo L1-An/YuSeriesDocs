@@ -29,6 +29,7 @@ export const zhNavbar = navbar([
           { text: "Adyeshach", icon: "mingcute:eye-fill", link: "/zh-TW/plugins/partner/Adyeshach/"},
           { text: "Chemdah", icon: "emojione-monotone:mouth", link: "/zh-TW/plugins/partner/Chemdah/"},
           { text: "Zaphkiel", icon: "ri:sword-line", link: "/zh-TW/plugins/partner/Zaphkiel/"},
+          { text: "NBTProhibition", icon: "hugeicons:tools", link: "/zh-TW/plugins/partner/NBTProhibition/"},
         ],
       },
     ],

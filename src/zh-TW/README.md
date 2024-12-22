@@ -67,6 +67,11 @@ highlights:
         icon: ri:sword-line
         details: 強大的物品庫插件, 前後端分離設計, 發包 lore, 以及更多...
         link: /zh-TW/plugins/partner/Zaphkiel/
+
+      - title: NBTProhibition
+        icon: hugeicons:tools
+        details: 輕量級的 NBT 移除工具, 支援多種匹配模式
+        link: /zh-TW/plugins/partner/NBTProhibition/
       
 copyright: Copyright © 2023-2024 L1An
 ---

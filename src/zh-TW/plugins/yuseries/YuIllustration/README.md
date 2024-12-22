@@ -20,7 +20,7 @@ YuIllustration 是一款基於 **TabooLib6.2** 開發的自定義圖鑑插件,
 | :--: | :--: |
 | 永久 | 19.99EUR |
 
-購買請加入[Yu's Studio](https://discord.com/invite/SzPBHGttaR), 或透過 [Discord](https://discord.com/users/l1_an.) 聯繫我
+購買請加入[Yu's Studio](https://discord.com/invite/SzPBHGttaR), 或透過 [Discord](https://discord.com/users/1092505635767205948) 聯繫我
 
 ## 特色
 

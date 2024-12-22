@@ -22,3 +22,8 @@ You can check out the **YuSeries series plugins** and my **partner plugins** lis
 - Minecraft simple model creation
 - Discord bot customization
 If you want to customize, please go to [here](https://discord.com/channels/1166519479379963924/1166856033134710804) to open an order.
+
+## Don't want to miss out on updates to your favorite plugins?
+Our bot has an automatic reminder feature,
+which can remind you of the update of your favorite plugin in the first time!
+Please subscribe to your favorite plugin reminder in [here](https://discord.com/channels/1166519479379963924/1308544858985861160/1308547964897067151).
