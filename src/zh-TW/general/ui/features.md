@@ -6,6 +6,7 @@ dir:
 ---
 
 `YuSeries` 系列插件的 GUI 模塊中默認提供了一些方便易用的 feature, 可以讓你的 GUI 呈現出來的效果更加豐富.  
+當然, 幾乎每個帶有 GUI 功能的 `YuSeries` 插件都有自己獨特的 feature, 這裡列出的都是通用 feature.
 
 ::: note
 

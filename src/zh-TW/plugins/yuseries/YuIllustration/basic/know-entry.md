@@ -1,6 +1,6 @@
 ---
 title: 認識條目
-order: 3
+order: 2
 ---
 
 YuIllustration 插件使用條目系統來管理具體的收集項目，讓玩家能夠追蹤和完成各種收集目標。

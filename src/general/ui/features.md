@@ -6,6 +6,7 @@ dir:
 ---
 
 `YuSeries` plugins' UI module provides some easy-to-use features to make your UI more rich.  
+Of course, almost every `YuSeries` plugin with GUI features has its own unique feature, and these are the common features.
 
 ::: note
 
@@ -24,7 +25,7 @@ Click to close the UI
 ### Usage example
 ```yaml
 '#':
-  name: "關閉"
+  name: "Close"
   feature:
     - ==: Close
 ```

@@ -13,3 +13,46 @@ dir:
 :::
 
 ## 提供的 feature
+
+### MainUI
+
+在 `MainUI` 中, 提供的 feature 有:
+
+::: tabs
+
+@tab element
+
+帶有這個 feature 的圖標將會被渲染成主介面的一個類別按鈕, 點擊即可跳轉到對應的類別介面.
+
+```yaml
+- ==: Functional
+  keyword: Main:element
+```
+
+:::
+
+### CategoryUI
+
+在 `CategoryUI` 中, 提供的 feature 有:
+
+::: tabs
+
+@tab element
+
+帶有這個 feature 的圖標將會被渲染成類別介面的一個條目按鈕, 它將會顯示你在[條目配置文件](../basic/know-entry.md)中配置的條目圖標.
+
+```yaml
+- ==: Functional
+  keyword: Category:element
+```
+
+@tab main
+
+帶有這個 feature 的圖標將可以被點擊以返回主介面.
+
+```yaml
+- ==: Functional
+  keyword: Category:main
+```
+
+:::

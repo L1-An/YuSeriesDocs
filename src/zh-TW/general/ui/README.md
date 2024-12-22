@@ -3,7 +3,7 @@ title: GUI 介面
 icon: qlementine-icons:ui-panel-left-16
 dir:
   link: true
-  order: 1
+  order: 3
 ---
 
 <div class="catalog-display-container">

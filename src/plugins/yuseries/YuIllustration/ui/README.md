@@ -2,7 +2,7 @@
 title: GUI
 dir:
   link: true
-  order: 2
+  order: 3
 ---
 
 <div class="catalog-display-container">
