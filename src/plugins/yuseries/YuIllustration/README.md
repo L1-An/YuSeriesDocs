@@ -38,4 +38,4 @@ To purchase, join [Yu's Studio](https://discord.com/invite/SzPBHGttaR) or contac
 
 ## Related Links
 
-[Bahamut](https://forum.gamer.com.tw/C.php?bsn=18673&snA=201173)
+[Bahamut(Taiwan)](https://forum.gamer.com.tw/C.php?bsn=18673&snA=201173)

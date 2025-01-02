@@ -6,4 +6,5 @@ dir:
   order: 3
 ---
 
-YuSpawnerHologram
+## Writing...
+Please wait patiently

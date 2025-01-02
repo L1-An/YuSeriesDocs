@@ -73,5 +73,10 @@ highlights:
         details: 輕量級的 NBT 移除工具, 支援多種匹配模式
         link: /zh-TW/plugins/partner/NBTProhibition/
       
+      - title: CDKLite
+        icon: mynaui:label
+        details: 創建自定義的 CDK 禮包吧!
+        link: /zh-TW/plugins/partner/CDKLite/
+      
 copyright: Copyright © 2023-2024 L1An
 ---

@@ -72,6 +72,11 @@ highlights:
         icon: hugeicons:tools
         details: A lightweight NBT removal tool, supporting multiple matching modes
         link: /plugins/partner/NBTProhibition/
+      
+      - title: CDKLite
+        icon: mynaui:label
+        details: Create your own CDK packages!
+        link: /plugins/partner/CDKLite/
 
 copyright: Copyright © 2023-2024 L1An
 ---

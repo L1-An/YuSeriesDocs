@@ -30,6 +30,7 @@ export const enNavbar = navbar([
           { text: "Chemdah", icon: "emojione-monotone:mouth", link: "/plugins/partner/Chemdah/"},
           { text: "Zaphkiel", icon: "ri:sword-line", link: "/plugins/partner/Zaphkiel/"},
           { text: "NBTProhibition", icon: "hugeicons:tools", link: "/plugins/partner/NBTProhibition/"},
+          { text: "CDKLite", icon: "mynaui:label", link: "/plugins/partner/CDKLite/"},
         ],
       },
     ],
