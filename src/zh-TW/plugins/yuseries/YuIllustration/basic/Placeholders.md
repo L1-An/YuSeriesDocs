@@ -1,6 +1,6 @@
 ---
 title: PlaceholderAPI 佔位符
-order: 3
+order: 4
 ---
 
 YuIllustration 為你提供了多種 PlaceholderAPI 的佔位符.

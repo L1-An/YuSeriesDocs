@@ -1,5 +1,5 @@
 ---
-title: GUI
+title: GUI Interface
 dir:
   link: true
   order: 3

@@ -1,8 +1,8 @@
 ---
-title: Unlockers
+title: Unlocker List
 dir:
   link: true
-  order: 3
+  order: 5
 ---
 
 If you do not find the unlocker you need in the list, please go to the [Discord Guild](https://discord.com/invite/SzPBHGttaR) to submit your request.

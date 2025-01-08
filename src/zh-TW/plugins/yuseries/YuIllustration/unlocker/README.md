@@ -1,8 +1,8 @@
 ---
-title: 解鎖器
+title: 解鎖器列表
 dir:
   link: true
-  order: 3
+  order: 5
 ---
 
 若在列表中未發現你需要的解鎖器, 請前往 [Discord Guild](https://discord.com/invite/SzPBHGttaR) 提出你的需求.
