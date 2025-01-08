@@ -1,6 +1,6 @@
 ---
-title: PlaceholderAPI Placeholders
-order: 3
+title: PAPI Placeholders
+order: 4
 ---
 
 YuIllustration provides you with various PlaceholderAPI placeholders.
