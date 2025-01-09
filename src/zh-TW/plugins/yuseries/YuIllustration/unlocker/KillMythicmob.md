@@ -31,6 +31,14 @@ id: `yui-mythic-mob` / `mythic-mob`
 - `mythic-mob id` 返回殺死的生物 id.
 - `mythic-mob name` 返回殺死的生物名稱.
 
+@tab Variable
+
+## id
+返回殺死的生物 id
+
+## name
+返回殺死的生物名稱
+
 @tab Example
 
 ```yaml

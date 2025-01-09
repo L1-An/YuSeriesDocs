@@ -31,6 +31,14 @@ id: `yui-item` / `item`
 - `item total-amount` 返回撿起的物品總數.
 - `item pick-amount` 返回撿起的物品數量.
 
+@tab Variable
+
+## type
+返回撿起的物品類型名稱
+
+## display-name
+返回撿起的物品顯示名稱
+
 @tab Example
 
 ```yaml

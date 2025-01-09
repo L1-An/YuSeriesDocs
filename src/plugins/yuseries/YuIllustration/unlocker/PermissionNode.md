@@ -24,6 +24,10 @@ When a player has a certain permission node.
 
 No additional kether actions are available.
 
+@tab Variable
+
+No additional variables are available.
+
 @tab Example
 
 ```yaml

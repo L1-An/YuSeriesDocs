@@ -31,6 +31,14 @@ Syntax:
 - `mythic-mob id` returns the id of the entity killed.
 - `mythic-mob name` returns the name of the entity killed.
 
+@tab Variable
+
+## id
+Returns the id of the killed entity
+
+## name
+Returns the name of the killed entity
+
 @tab Example
 
 ```yaml

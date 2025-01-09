@@ -33,6 +33,10 @@ Please note that the time unit is **case sensitive**.
 
 No additional kether conditions are available.
 
+@tab Variable
+
+No additional variables are available.
+
 @tab Example
 
 ```yaml

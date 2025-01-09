@@ -30,6 +30,14 @@ id: `yui-kill-entity` / `kill-entity`
 - `kill-entity total-amount` 返回殺死的生物總數.
 - `kill-entity name` 返回殺死的生物名稱.
 
+@tab Variable
+
+## type
+返回殺死的生物類型名稱
+
+## name
+返回殺死的生物名稱
+
 @tab Example
 
 ```yaml

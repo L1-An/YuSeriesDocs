@@ -49,6 +49,14 @@ Syntax:
 - `item total-amount` returns the total amount of the picked-up item.
 - `item pick-amount` returns the amount of items picked up this time.
 
+@tab Variable
+
+## type
+Returns the name of the picked-up item type
+
+## display-name
+Returns the display name of the picked-up item
+
 @tab Example
 
 ```yaml

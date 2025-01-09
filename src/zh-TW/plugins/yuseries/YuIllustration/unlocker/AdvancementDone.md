@@ -23,6 +23,11 @@ tag: ["Vanilla"]
 
 無額外 kether 條件可用
 
+@tab Variable
+
+## title
+返回該進度的名稱
+
 @tab Example
 
 ```yaml
@@ -31,6 +36,8 @@ tag: ["Vanilla"]
     key: "minecraft:story/iron_tools"
   # 没有相关 kether 动作
   condition: ""
+  then: |-
+    tell inline color "&a你完成了進度: &e{{ &title }}"
 ```
 
 :::

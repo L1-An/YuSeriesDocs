@@ -29,6 +29,14 @@ id: `yui-craft-item` / `craft-item`
 Syntax:
 - `craft-item total-amount` returns the total number of the crafted item.
 
+@tab Variable
+
+## type
+Returns the name of the crafted item type
+
+## display-name
+Returns the display name of the crafted item
+
 @tab Example
 
 ```yaml

@@ -29,6 +29,14 @@ id: `yui-craft-item` / `craft-item`
 語法:
 - `craft-item total-amount` 返回製作的物品總數.
 
+@tab Variable
+
+## type
+返回製作物品的類型名稱
+
+## display-name
+返回製作物品的顯示名稱
+
 @tab Example
 
 ```yaml

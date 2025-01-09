@@ -33,6 +33,10 @@ tag: ["CMI"]
 
 無額外 kether 條件可用
 
+@tab Variable
+
+無額外變量可用
+
 @tab Example
 
 ```yaml

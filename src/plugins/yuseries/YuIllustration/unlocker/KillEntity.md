@@ -30,6 +30,14 @@ Syntax:
 - `kill-entity total-amount` returns the total number of kills.
 - `kill-entity name` returns the name of the entity killed.
 
+@tab Variable
+
+## type
+Returns the name of the killed entity type
+
+## name
+Returns the name of the killed entity
+
 @tab Example
 
 ```yaml
