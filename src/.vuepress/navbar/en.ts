@@ -20,6 +20,7 @@ export const enNavbar = navbar([
           { text: "YuVarieLevel", icon: "ion:water", link: "/plugins/yuseries/YuVarieLevel/"},
           { text: "YuBattleMusic", icon: "mingcute:music-fill", link: "/plugins/yuseries/YuBattleMusic/"},
           { text: "YuItemAction", icon: "grommet-icons:action", link: "/plugins/yuseries/YuItemAction/"},
+          { text: "BetterHudChemdah", icon: "mdi:chat", link: "/plugins/yuseries/BetterHudChemdah/"},
         ],
       },
       {

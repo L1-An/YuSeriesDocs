@@ -20,6 +20,7 @@ export const zhNavbar = navbar([
           { text: "YuVarieLevel", icon: "ion:water", link: "/zh-TW/plugins/yuseries/YuVarieLevel/"},
           { text: "YuBattleMusic", icon: "mingcute:music-fill", link: "/zh-TW/plugins/yuseries/YuBattleMusic/"},
           { text: "YuItemAction", icon: "grommet-icons:action", link: "/zh-TW/plugins/yuseries/YuItemAction/"},
+          { text: "BetterHudChemdah", icon: "mdi:chat", link: "/zh-TW/plugins/yuseries/BetterHudChemdah/"},
         ],
       },
       {

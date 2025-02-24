@@ -50,6 +50,11 @@ highlights:
         icon: hugeicons:power-service
         details: A powerful attribute plugin, multiple built-in attributes, and support custom attributes.
         link: /plugins/yuseries/Sortilege/
+      
+      - title: BetterHudChemdah
+        icon: mdi:chat
+        details: A plugin that extends the dialogue theme of Chemdah using BetterHud.
+        link: /plugins/yuseries/BetterHudChemdah/
 
   - header: Partner Plugins
     features:

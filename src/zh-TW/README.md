@@ -51,6 +51,11 @@ highlights:
         details: 強大的屬性插件, 多種內置屬性, 支持自定義屬性.
         link: /zh-TW/plugins/yuseries/Sortilege/
 
+      - title: BetterHudChemdah
+        icon: mdi:chat
+        details: 一款基於 `BetterHud` 與 `Chemdah` 實現的**擴展對話主題**插件
+        link: /zh-TW/plugins/yuseries/BetterHudChemdah/
+
   - header: 合作夥伴插件
     features:
       - title: Adyeshach

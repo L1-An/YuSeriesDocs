@@ -14,7 +14,7 @@ tag: ["Vanilla"]
 
 @tab Data
 
-## key <Badge text="必須" type="tip" />
+## key <Badge text="必須" type="tip"/>
 
 - 類型: `string`
 - 描述: 進度 key, 可以通過 [API 指令](../start/command.md) 獲取
