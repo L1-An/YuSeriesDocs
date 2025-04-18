@@ -12,7 +12,7 @@ tagline: YuSeries 系列插件與合作夥伴插件文檔庫
 actions:
   - text: 開始
     icon: mdi:compass-outline
-    link: /zh-TW/portfolio/
+    link: /zh-TW/portfolio.html
     type: primary
 
 highlights:
