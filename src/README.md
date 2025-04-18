@@ -12,7 +12,7 @@ tagline: YuSeries plugins and partner plugins documentation
 actions:
   - text: Start
     icon: mdi:compass-outline
-    link: ./demo/
+    link: /portfolio/
     type: primary
 
 highlights:

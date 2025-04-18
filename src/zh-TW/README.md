@@ -10,9 +10,9 @@ bgImageStyle:
 heroText: YuSeries Docs
 tagline: YuSeries 系列插件與合作夥伴插件文檔庫
 actions:
-  - text: 指南
+  - text: 開始
     icon: mdi:compass-outline
-    link: ./demo/
+    link: /zh-TW/portfolio/
     type: primary
 
 highlights:
