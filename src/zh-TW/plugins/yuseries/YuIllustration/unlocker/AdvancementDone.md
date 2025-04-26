@@ -12,32 +12,26 @@ tag: ["Vanilla"]
 
 `advancement done`
 
-@tab Data
+@tab Condition
 
-## key <Badge text="必須" type="tip"/>
+## key
 
 - 類型: `string`
 - 描述: 進度 key, 可以通過 [API 指令](../start/command.md) 獲取
 
-@tab Condition
+@tab Goal
 
-無額外 kether 條件可用
-
-@tab Variable
-
-## title
-返回該進度的名稱
+無 goal 設定, 達成 condition 即爲完成
 
 @tab Example
 
 ```yaml
 - type: "advancement done"
-  data:
+  condition:
     key: "minecraft:story/iron_tools"
-  # 没有相关 kether 动作
-  condition: ""
+  # 没有相关 goal 配置, 完成 condition 即爲完成
   then: |-
-    tell inline color "&a你完成了進度: &e{{ &title }}"
+    tell inline color "&a你完成了進度: &eiron_tools"
 ```
 
 :::

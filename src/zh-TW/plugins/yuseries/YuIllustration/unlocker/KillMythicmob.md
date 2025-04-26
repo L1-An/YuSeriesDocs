@@ -12,41 +12,41 @@ tag: ["MythicMobs"]
 
 `kill mythic mob`
 
-@tab Data
+@tab Condition
 
-## id <Badge text="必須" type="tip" />
+## id
 
 - 類型: `string`
 - 默認值: `none`
 - 描述: MythicMob 的 id.
 
-@tab Condition
-
-## mythic-mob
-
-id: `yui-mythic-mob` / `mythic-mob`
-
-語法:
-- `mythic-mob total-amount` 返回殺死的生物總數.
-- `mythic-mob id` 返回殺死的生物 id.
-- `mythic-mob name` 返回殺死的生物名稱.
-
-@tab Variable
-
-## id
-返回殺死的生物 id
-
 ## name
-返回殺死的生物名稱
+
+- 類型: `string`
+- 默認值: `none`
+- 描述: MythicMob 的名稱.
+
+## level
+
+- 類型: `number`
+- 默認值: `none`
+- 描述: MythicMob 的等級.
+
+@tab Goal
+
+## amount <Badge text="可選" type="tip" />
+- 類型: `number`
+- 默認值: `1`
+- 描述: 殺死的 MythicMob 生物數量
 
 @tab Example
 
 ```yaml
 - type: "kill mythic mob"
-  data:
+  condition:
     id: "SkeletalKnight"
-  condition: |-
-    check mythic-mob total-amount == 5
+  goal: 
+    amount: 5
 ```
 
 ::: 

@@ -25,31 +25,32 @@ unlocker:
     # ...
 ```
 
-### Data
-對應配置文件中的 `data` 部分, 只有觸發對應事件並且滿足 `data` 時才會觸發 unlocker.  
-並且在每個 `data` 上都有標注是否為必須填寫.
+### Condition
+對應配置文件中的 `condition` 部分, 只有觸發對應事件並且滿足 `condition` 時才會觸發 unlocker.  
+如果不填寫 `condition` 中的鍵, 則會每次在每次觸發對應事件時無條件觸發 unlocker.
 
 配置案例:
 ```yaml
 unlocker:
   - type: "id"
-    data:
-      data_a: "..."
-      data_b: "..."
+    condition:
+      cond_a: "..."
+      cond_b: "..."
 ```
 
-### Condition
-對應配置文件中的 `condition` 部分, 在滿足 `data` 的條件下, 才會開始判斷 `condition` 是否成立, 若成立則會觸發 unlocker.
+### Goal
+對應配置文件中的 `goal` 部分, 在滿足 `condition` 的條件下, 才會開始判斷 `goal` 是否成立, 若成立則會觸發 unlocker.
 
 配置案例:
 ```yaml
 unlocker:
   - type: "id"
-    data:
-      data_a: "..."
-      data_b: "..."
-    condition: |-
-      # ...
+    condition:
+      cond_a: "..."
+      cond_b: "..."
+    goal:
+      amount: 10
+      ...: "..."
 ```
 
 ### Variable
@@ -64,11 +65,12 @@ unlocker:
 ```yaml
 unlocker:
   - type: "id"
-    data:
-      data_a: "..."
-      data_b: "..."
-    condition: |-
-      # ...
+    condition:
+      cond_a: "..."
+      cond_b: "..."
+    goal:
+      amount: 10
+      ...: "..."
     then: |-
       tell inline color "&a你完成了進度: &e{{ &title }}"
 ```

@@ -12,29 +12,22 @@ tag: ["Vanilla"]
 
 `player move`
 
-@tab Data
+@tab Condition
 
-## position <Badge text="必須" type="tip"/>
-
+## position
 - 類型: `string`
 - 描述: 座標
 
-@tab Condition
+@tab Goal
 
-無額外 kether 條件可用
-
-@tab Variable
-
-無額外變量可用
+無 goal 設定, 達成 condition 即爲完成
 
 @tab Example
 
 ```yaml
 - type: "player move"
-  data:
-    position: "world 0 0 0" # 行走到指定位置才会解锁
-  # 没有相关 kether 动作
-  condition: ""
+  condition:
+    position: "world 0 0 0 ~ 10" # 行走到指定位置附近 10 個內才会解锁
   then: |-
     tell inline color "&a你到達了目標地點!"
 ```

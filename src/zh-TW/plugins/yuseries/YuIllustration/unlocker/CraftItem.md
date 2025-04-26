@@ -12,39 +12,29 @@ tag: ["Vanilla"]
 
 `craft item`
 
-@tab Data
+@tab Condition
 
-## type <Badge text="必須" type="tip" />
+## item
 
 - 類型: `string`
 - 默認值: `none`
-- 描述: 製作的物品類型。查看所有物品類型名稱 [here](https://bukkit.windit.net/javadoc/org/bukkit/Material.html).
+- 描述: 製作的物品類型。查看所有物品類型名稱 [here](https://bukkit.windit.net/javadoc/org/bukkit/Material.html), 注意必須小寫
 
-@tab Condition
+@tab Goal
 
-## craft-item
-
-id: `yui-craft-item` / `craft-item`
-
-語法:
-- `craft-item total-amount` 返回製作的物品總數.
-
-@tab Variable
-
-## type
-返回製作物品的類型名稱
-
-## display-name
-返回製作物品的顯示名稱
+## amount <Badge text="可選" type="tip" />
+- 類型: `number`
+- 默認值: `1`
+- 描述: 製作的物品數量
 
 @tab Example
 
 ```yaml
 - type: "craft item"
-  data:
-    type: "IRON_SWORD"
-  condition: |-
-    check craft-item total-amount == 5
+  condition:
+    item: "iron_sword"
+  goal:
+    amount: 5
 ```
 
 :::

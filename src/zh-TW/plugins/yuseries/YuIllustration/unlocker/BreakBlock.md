@@ -12,37 +12,31 @@ tag: ["Vanilla"]
 
 `break block`
 
-@tab Data
-
-## type <Badge text="必須" type="tip"/>
-
-- 類型: `string`
-- 描述: 方塊 Id
-
 @tab Condition
 
-## break-block
+## material
 
-id: `yui-break-block` / `break-block`
+- 類型: `string`
+- 描述: 方塊 Id, 必須小寫
 
-語法:
-- `break-block total-amount` 返回破壞的方塊總數
+@tab Goal
 
-@tab Variable
+## amount <Badge text="可選" type="tip" />
 
-## type
-返回破壞的方塊類型名稱
+- 類型: `number`
+- 默認值: `1`
+- 描述: 破壞的方塊數量
 
 @tab Example
 
 ```yaml
 - type: "break block"
   data:
-    type: "stone"
-  condition: |-
-    check break-block total-amount == 10
+    material: "stone"
+  condition:
+    amount: 10
   then: |-
-    tell inline color "&a你摧毀了 {{ &type }} 方塊 * {{ &total-amount }} 個"
+    tell inline color "&a你摧毀了 10 個 stone"
 ```
 
 :::

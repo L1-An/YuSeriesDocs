@@ -12,61 +12,43 @@ tag: ["Vanilla"]
 
 `pickup item`
 
-@tab Data
-
-::: important
-
-你需要設置**至少一個**以下數據.
-
-:::
-
-## name <Badge text="可選" type="tip" />
-
-- 類型: `string`
-- 默認值: `none`
-- 描述: 物品的名稱。
-
-## lore <Badge text="可選" type="tip" />
-
-- 類型: `string`
-- 默認值: `none`
-- 描述: 物品的描述。
-
-## nbt <Badge text="可選" type="tip" />
-
-- 類型: `string`
-- 默認值: `none`
-- 描述: 物品的 NBT。
-
 @tab Condition
 
-## yui-item
+## item
 
-id: `yui-item` / `item`
+- 類型: `string`
+- 默認值: `none`
+- 描述: 物品描述, 標準寫法如下:  
+  `namespace:id`, 如果不指定命名空間則默認爲 `minecraft`, 指向原版物品, id 必須小寫.  
+  其他可選的 namespace:
+  - `zaphkiel` 指向 [zaphkiel](../../../partner/Zaphkiel/README.md) 插件的物品.
+  - `mmoitems` 指向 MMOItems 插件的物品.
+  - `mythicmobs` 指向 MythicMobs 插件的物品.  
+  例如:
+  - `zaphkiel:example_sword` 指向 zaphkiel 插件的 `example_sword` 物品.
+  - `mmoitems:diamond_sword` 指向 MMOItems 插件的 `diamond_sword` 物品.
+  - `mythicmobs:skeleton_sword` 指向 MythicMobs 插件的 `skeleton_sword` 物品.
 
-語法:
-- `item take` 從玩家背包中移除撿起的物品。
-- `item total-amount` 返回撿起的物品總數。
-- `item pick-amount` 返回本次撿起的物品數量。
+## amount
+- 類型: `number`
+- 默認值: `1`
+- 描述: 撿起的物品數量
 
-@tab Variable
+@tab Goal
 
-## type
-返回撿起的物品類型名稱
-
-## display-name
-返回撿起的物品顯示名稱
+## amount <Badge text="可選" type="tip"/>
+- 類型: `number`
+- 默認值: `1`
+- 描述: 撿起物品的次數
 
 @tab Example
 
 ```yaml
 - type: "pickup item"
-  data:
-    name: "diamond" # 物品名稱
-    lore: "diamond" # 物品描述（只要描述中包含對應的內容）
-    nbt: "diamond" # 物品 NBT，默認包含 @yuillustration-item-pickup
-  condition: |-
-    check yui-item total-amount == 5
+  condition:
+    item: "diamond_sword"
+  goal:
+    amount: 5
 ```
 
 ::::

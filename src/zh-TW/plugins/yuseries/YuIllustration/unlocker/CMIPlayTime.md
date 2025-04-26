@@ -12,7 +12,11 @@ tag: ["CMI"]
 
 `cmi play time`
 
-@tab Data
+@tab Condition
+
+無 Condition 條件可用
+
+@tab Goal
 
 ## time <Badge text="必須" type="tip" />
 
@@ -29,22 +33,13 @@ tag: ["CMI"]
 
 :::
 
-@tab Condition
-
-無額外 kether 條件可用
-
-@tab Variable
-
-無額外變量可用
-
 @tab Example
 
 ```yaml
 - type: "cmi play time"
-  data:
+  goal:
     time: 1000s # 在線時間超過 1000 秒才會解鎖, 支持 s秒, m分鐘, h小時, d天, w周, M月, y年
   # 沒有相關 kether 動作
-  condition: ""
 ```
 
 ::::

@@ -12,40 +12,34 @@ tag: ["Vanilla"]
 
 `kill entity`
 
-@tab Data
+@tab Condition
 
-## type <Badge text="Required" type="tip" />
+## weapon
 
+- 類型: `string`
+- 默認值: `none`
+- 描述: 殺死生物時使用的物品(主手物品), 必須小寫
+
+## type
 - 類型: `string`
 - 默認值: `none`
 - 描述: 殺死的生物類型。查看所有生物類型名稱 [here](https://bukkit.windit.net/javadoc/org/bukkit/entity/EntityType.html).
 
-@tab Condition
+@tab Goal
 
-## kill-entity
-
-id: `yui-kill-entity` / `kill-entity`
-
-語法:
-- `kill-entity total-amount` 返回殺死的生物總數.
-- `kill-entity name` 返回殺死的生物名稱.
-
-@tab Variable
-
-## type
-返回殺死的生物類型名稱
-
-## name
-返回殺死的生物名稱
+## amount <Badge text="可選" type="tip" />
+- 類型: `number`
+- 默認值: `1`
+- 描述: 殺死的生物數量
 
 @tab Example
 
 ```yaml
 - type: "kill entity"
-  data:
-    type: "ZOMBIE"
-  condition: |-
-    check kill-entity total-amount == 5
+  condition:
+    type: "zombie"
+  goal:
+    amount: 5
 ```
 
 ::: 

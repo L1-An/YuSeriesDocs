@@ -12,37 +12,28 @@ tag: ["Vanilla"]
 
 `place block`
 
-@tab Data
-
-## type <Badge text="必須" type="tip"/>
-
-- 類型: `string`
-- 描述: 方塊 Id
-
 @tab Condition
 
-## place-block
+## material
 
-id: `yui-place-block` / `place-block`
+- 類型: `string`
+- 描述: 方塊 Id, 必須小寫
 
-語法:
-- `place-block total-amount` 返回放置的方塊總數
+@tab Goal
 
-@tab Variable
-
-## type
-返回破壞的方塊類型名稱
+## amount
+- 類型: `number`
+- 默認值: `1`
+- 描述: 放置的方塊數量
 
 @tab Example
 
 ```yaml
 - type: "place block"
-  data:
-    type: "stone"
-  condition: |-
-    check place-block total-amount == 10
-  then: |-
-    tell inline color "&a你放置了 {{ &type }} 方塊 * {{ &total-amount }} 個"
+  condition:
+    material: "stone"
+  goal:
+    amount: 10
 ```
 
 :::
