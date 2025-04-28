@@ -83,5 +83,5 @@ highlights:
         details: 創建自定義的 CDK 禮包吧!
         link: /zh-TW/plugins/partner/CDKLite/
       
-copyright: Copyright © 2023-2024 L1An
+copyright: Copyright © 2023-2025 L1An
 ---

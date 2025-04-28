@@ -83,5 +83,5 @@ highlights:
         details: Create your own CDK packages!
         link: /plugins/partner/CDKLite/
 
-copyright: Copyright © 2023-2024 L1An
+copyright: Copyright © 2023-2025 L1An
 ---

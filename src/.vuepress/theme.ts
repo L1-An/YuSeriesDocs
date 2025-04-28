@@ -28,7 +28,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      copyright: "Copyright © 2023-2024 L1An",
+      copyright: "Copyright © 2023-2025 L1An",
 
       displayFooter: true,
 
@@ -47,7 +47,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      copyright: "Copyright © 2023-2024 L1An",
+      copyright: "Copyright © 2023-2025 L1An",
 
       displayFooter: true,
 
