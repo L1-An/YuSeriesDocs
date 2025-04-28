@@ -18,12 +18,12 @@ tag: ["Vanilla"]
 
 - 類型: `string`
 - 默認值: `none`
-- 描述: 殺死生物時使用的物品(主手物品), 必須小寫
+- 描述: 殺死生物時使用的物品(主手物品), 注意必須小寫
 
 ## type
 - 類型: `string`
 - 默認值: `none`
-- 描述: 殺死的生物類型。查看所有生物類型名稱 [here](https://bukkit.windit.net/javadoc/org/bukkit/entity/EntityType.html).
+- 描述: 殺死的生物類型。查看所有生物類型名稱 [here](https://bukkit.windit.net/javadoc/org/bukkit/entity/EntityType.html), 注意必須小寫
 
 @tab Goal
 

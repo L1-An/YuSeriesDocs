@@ -32,3 +32,16 @@ order: 1
     amount: 5
 ```
 具體每個 unlocker 所提供的條件和目標鍵請參考其對應的說明介面, 可以在[這裡](../unlocker/README.md)查看目錄索引.
+
+## cache
+由於使用了新的 manager 系統，所以需要重新建立 cache 資料，操作過程如下：  
+- 在伺服器跟目錄(與 `plugins` 同層)下找到 `cache` 資料夾
+- 打開 `cache` 資料夾，找到 `taboolib/com.github.l1an.yuillustration` 資料夾
+- 將其完全刪除
+- 重新啟動伺服器
+
+::: tip
+
+感謝 @soraniko 提出該更新提醒
+
+:::
