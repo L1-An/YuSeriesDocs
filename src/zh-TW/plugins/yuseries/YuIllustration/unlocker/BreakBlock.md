@@ -30,13 +30,14 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "break block"
-  data:
-    material: "stone"
-  condition:
-    amount: 10
-  then: |-
-    tell inline color "&a你摧毀了 10 個 stone"
+unlock:
+  - type: "break block"
+    data:
+      material: "stone"
+    condition:
+      amount: 10
+    then: |-
+      tell inline color "&a你摧毀了 10 個 stone"
 ```
 
 :::

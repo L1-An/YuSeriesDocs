@@ -20,7 +20,7 @@ dir:
 該解鎖器的 id, 在配置文件中的填寫格式為:
 
 ```yaml
-unlocker:
+unlock:
   - type: "id"
     # ...
 ```
@@ -31,7 +31,7 @@ unlocker:
 
 配置案例:
 ```yaml
-unlocker:
+unlock:
   - type: "id"
     condition:
       cond_a: "..."
@@ -43,7 +43,7 @@ unlocker:
 
 配置案例:
 ```yaml
-unlocker:
+unlock:
   - type: "id"
     condition:
       cond_a: "..."
@@ -63,7 +63,7 @@ unlocker:
 
 配置案例:
 ```yaml
-unlocker:
+unlock:
   - type: "id"
     condition:
       cond_a: "..."

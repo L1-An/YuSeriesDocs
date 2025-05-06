@@ -35,11 +35,12 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "kill entity"
-  condition:
-    type: "zombie"
-  goal:
-    amount: 5
+unlock:
+  - type: "kill entity"
+    condition:
+      type: "zombie"
+    goal:
+      amount: 5
 ```
 
 ::: 

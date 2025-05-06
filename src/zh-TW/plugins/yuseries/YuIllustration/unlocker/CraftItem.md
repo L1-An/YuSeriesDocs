@@ -30,11 +30,12 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "craft item"
-  condition:
-    item: "iron_sword"
-  goal:
-    amount: 5
+unlock:
+  - type: "craft item"
+    condition:
+      item: "iron_sword"
+    goal:
+      amount: 5
 ```
 
 :::

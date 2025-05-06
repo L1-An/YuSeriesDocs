@@ -25,11 +25,12 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "player move"
-  condition:
-    position: "world 0 0 0 ~ 10" # 行走到指定位置附近 10 個內才会解锁
-  then: |-
-    tell inline color "&a你到達了目標地點!"
+unlock:
+  - type: "player move"
+    condition:
+      position: "world 0 0 0 ~ 10" # 行走到指定位置附近 10 個內才会解锁
+    then: |-
+      tell inline color "&a你到達了目標地點!"
 ```
 
 :::

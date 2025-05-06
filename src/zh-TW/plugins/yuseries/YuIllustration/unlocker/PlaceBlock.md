@@ -29,11 +29,12 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "place block"
-  condition:
-    material: "stone"
-  goal:
-    amount: 10
+unlock:
+  - type: "place block"
+    condition:
+      material: "stone"
+    goal:
+      amount: 10
 ```
 
 :::

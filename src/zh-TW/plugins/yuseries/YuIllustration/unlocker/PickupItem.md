@@ -44,11 +44,12 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "pickup item"
-  condition:
-    item: "diamond_sword"
-  goal:
-    amount: 5
+unlock:
+  - type: "pickup item"
+    condition:
+      item: "diamond_sword"
+    goal:
+      amount: 5
 ```
 
 ::::

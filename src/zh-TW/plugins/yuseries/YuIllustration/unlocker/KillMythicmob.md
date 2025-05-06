@@ -42,11 +42,12 @@ tag: ["MythicMobs"]
 @tab Example
 
 ```yaml
-- type: "kill mythic mob"
-  condition:
-    id: "SkeletalKnight"
-  goal: 
-    amount: 5
+unlock:
+  - type: "kill mythic mob"
+    condition:
+      id: "SkeletalKnight"
+    goal: 
+      amount: 5
 ```
 
 ::: 

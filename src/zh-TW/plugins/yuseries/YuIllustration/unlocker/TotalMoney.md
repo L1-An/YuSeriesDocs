@@ -26,11 +26,12 @@ tag: ["Vault"]
 @tab Example
 
 ```yaml
-- type: "total money"
-  goal:
-    amount: 1000 # 擁有超過 1000 金錢時會觸發
-  then: |-
-    tell inline color "&a你擁有超過 1000 金錢!!!"
+unlock:
+  - type: "total money"
+    goal:
+      amount: 1000 # 擁有超過 1000 金錢時會觸發
+    then: |-
+      tell inline color "&a你擁有超過 1000 金錢!!!"
 ```
 
 :::

@@ -36,10 +36,11 @@ tag: ["CMI"]
 @tab Example
 
 ```yaml
-- type: "cmi play time"
-  goal:
-    time: 1000s # 在線時間超過 1000 秒才會解鎖, 支持 s秒, m分鐘, h小時, d天, w周, M月, y年
-  # 沒有相關 kether 動作
+unlock:
+  - type: "cmi play time"
+    goal:
+      time: 1000s # 在線時間超過 1000 秒才會解鎖, 支持 s秒, m分鐘, h小時, d天, w周, M月, y年
+    # 沒有相關 kether 動作
 ```
 
 ::::

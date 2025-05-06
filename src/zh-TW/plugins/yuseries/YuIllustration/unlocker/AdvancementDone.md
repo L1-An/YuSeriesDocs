@@ -26,12 +26,13 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "advancement done"
-  condition:
-    key: "minecraft:story/iron_tools"
-  # 没有相关 goal 配置, 完成 condition 即爲完成
-  then: |-
-    tell inline color "&a你完成了進度: &eiron_tools"
+unlock:
+  - type: "advancement done"
+    condition:
+      key: "minecraft:story/iron_tools"
+    # 没有相关 goal 配置, 完成 condition 即爲完成
+    then: |-
+      tell inline color "&a你完成了進度: &eiron_tools"
 ```
 
 :::

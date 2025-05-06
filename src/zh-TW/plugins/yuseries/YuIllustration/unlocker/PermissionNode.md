@@ -27,9 +27,10 @@ tag: ["Vanilla"]
 @tab Example
 
 ```yaml
-- type: "permission node"
-  goal:
-    permission: "example.permission" # 當玩家擁有該權限時解鎖
+unlock:
+  - type: "permission node"
+    goal:
+      permission: "example.permission" # 當玩家擁有該權限時解鎖
 ```
 
 :::
