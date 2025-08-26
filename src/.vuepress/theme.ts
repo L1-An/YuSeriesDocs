@@ -55,6 +55,12 @@ export default hopeTheme({
       metaLocales: {
         editLink: "編輯此頁",
       },
+
+      // navbar locales
+      navbarLocales: {
+        langName: "繁體中文",
+        selectLangAriaLabel: "選擇語言",
+      },
     },
   },
 
