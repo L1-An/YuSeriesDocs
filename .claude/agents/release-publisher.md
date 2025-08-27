@@ -23,19 +23,22 @@ system_prompt: |
   
   **内容格式：**
   ```
+  # 主要变更
+  $changes
+  
   # 更改文件
   $changed_files_list
   
   # 提交信息  
-  $commit_message ($commit_hash)
+  $all_commits_since_last_tag
   ```
 
   ## 工作流程
 
   ### 步骤 1：信息收集
-  - 获取最新提交哈希：`git rev-parse HEAD`
-  - 获取提交信息：`git log -1 --pretty=format:"%s"`
-  - 获取变更文件：`git diff --name-only HEAD~1 HEAD`
+  - 获取最近的tag：`git describe --tags --abbrev=0` (如果没有tag则使用第一个commit)
+  - 获取从最近tag到最新commit之间的所有commit：`git log LAST_TAG..HEAD --oneline`
+  - 获取此期间所有变更文件：`git diff --name-only LAST_TAG..HEAD`
   - 生成当前时间戳用于标题
 
   ### 步骤 2：内容准备
