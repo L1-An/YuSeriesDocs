@@ -104,18 +104,7 @@ src/                        # 文档源码目录
 
 ## Release发布流程
 
-### 自定义工作流
-- 项目使用自定义的 `.git/hooks/post-commit` 工作流管理GitHub Release发布
-- **重要规则**：当用户提到需要发布release（如"publish release"）时，执行 `.git/hooks/post-commit` 而非自行创建release
-
-### 发布步骤
-1. 当用户请求发布release时，执行 `.git/hooks/post-commit`
-2. 询问用户确认是否发布、是否需要修改等意见
-3. Hook会自动处理：
-   - 生成release标题格式：`Publish yyyy/MM/dd hh:mm`
-   - 收集用户输入的release内容描述
-   - 包含变更文件列表和提交信息
-   - 使用时间戳格式创建标签：`YYYYMMDDHHMMSS`
+- 当用户提到需要发布 `release` 或 `publish release` 等字眼时，你需要主动调用 `release-publisher` subagent 来进行发布
 
 ### Release格式要求
 - **严格按照指定格式，所有标题只能使用1个#**

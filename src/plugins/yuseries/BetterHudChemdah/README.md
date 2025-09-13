@@ -9,9 +9,11 @@ tag: "Premium"
 
 ## About
 
-> Supported versions: 1.19 - 1.20.4
+> Supported versions: 1.12 - 1.21
 
-BetterHudChemdah is an **extended dialogue theme** plugin based on `BetterHud` and `Chemdah`.
+BetterHudChemdah is a Chemdah dialogue system extension plugin based on **TabooLib 6.2**, 
+designed to provide a richer and more immersive dialogue experience. Through deep integration with BetterHud, 
+it brings players a better visual dialogue interface and interactive experience.
 
 ## Pricing
 
@@ -19,17 +21,29 @@ BetterHudChemdah is an **extended dialogue theme** plugin based on `BetterHud` a
 | :------: | :---: |
 | Lifetime | 15.99EUR |
 
-To purchase, join [Yu's Studio](https://discord.com/invite/SzPBHGttaR) or contact me via [Discord](https://discord.com/users/1092505635767205948).
+To purchase, join [Yu's Studio](https://discord.com/invite/SzPBHGttaR) or contact us via [Discord](https://discord.com/users/1092505635767205948).
 
 ## Features
 
-- Say goodbye to Chemdah's original chat box dialogue, using the more advanced BetterHud to display on the player's interface
-- Adds support for Chemdah's quest tracking on BetterHud's compass
-- Supports setting dialogue avatars for each NPC, even supports NPC facial expressions!
-- Highly customizable
-- Immersive dialogue camera system
+- **Immersive Dialogue Experience**: Combines virtual camera technology to provide cinematic dialogue visual effects
+- **Deep BetterHud Integration**: Completely built on BetterHud's Popup system for dialogue interface
+- **Smart Dialogue Management**: Supports dynamic text display, paginated replies, and scroll selection
+- **Rich Kether Actions**: Extends Chemdah script system, providing camera control, narration and other functions
+- **Quest Tracking System**: Integrated quest tracking interface for better quest navigation experience
+- **Highly Configurable**: All interface elements, sound effects, and animations can be fully customized
+- **Multi-theme Support**: Flexible theme system supporting different styles of dialogue interfaces
+- **Performance Optimized**: Based on event-driven architecture ensuring smooth gaming experience
+
+## Required Dependencies
+
+### Essential Dependencies
+- [Chemdah](../partner/Chemdah/README.md) - Dialogue system core (premium plugin)
+- [BetterHud](https://www.spigotmc.org/resources/betterhud.95068/) - Interface display framework
+
+### Optional Dependencies
+- [PacketEvents](https://github.com/retrooper/packetevents) - Enable immersive dialogue features
 
 ## Related Links
-
-[Basic Feature Showcase](https://youtu.be/RGP59oBmEio)  
-[Immersive Mode Showcase in Version 1.0.5](https://youtu.be/PZefFTH4hKw) 
+- [Discord Support](https://discord.com/invite/SzPBHGttaR)
+- [Basic Feature Showcase](https://youtu.be/RGP59oBmEio)
+- [Immersive Mode Demo](https://youtu.be/PZefFTH4hKw) 
