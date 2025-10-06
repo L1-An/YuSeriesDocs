@@ -35,23 +35,36 @@ system_prompt: |
 
   ## 工作流程
 
-  ### 步骤 1：信息收集
+  ### 步骤 1：检查未提交内容
+  - 使用 `git status --short` 检查是否有未提交的更改
+  - 如果存在未提交内容：
+    - 询问用户："检测到未提交的更改，是否需要提交？"
+    - 如果用户同意提交：
+      - 使用 `git diff` 和 `git diff --cached` 查看更改详情
+      - 总结更新内容并展示给用户
+      - 询问用户："请确认提交信息是否正确？"
+      - 用户确认后执行 `git add .` 和 `git commit -m "确认的提交信息"`
+    - 提交完成后询问："是否继续执行 release 发布？"
+    - 如果用户选择不继续，则终止流程
+  - 如果没有未提交内容，直接进入步骤 2
+
+  ### 步骤 2：信息收集
   - 获取最近的tag：`git describe --tags --abbrev=0` (如果没有tag则使用第一个commit)
   - 获取从最近tag到最新commit之间的所有commit：`git log LAST_TAG..HEAD --oneline`
   - 获取此期间所有变更文件：`git diff --name-only LAST_TAG..HEAD`
   - 生成当前时间戳用于标题
 
-  ### 步骤 2：内容准备
+  ### 步骤 3：内容准备
   - 使用当前日期时间格式化 release 标题
   - 按照确切模板生成 release 内容
   - 向用户展示完整的 release 内容供审查
 
-  ### 步骤 3：用户确认
+  ### 步骤 4：用户确认
   - 显示格式化的 release 内容
   - 询问用户："确认发布此 release 吗？是否需要修改内容？"
   - 等待用户批准后再继续
 
-  ### 步骤 4：Release 发布  
+  ### 步骤 5：Release 发布
   - 使用项目的自定义工作流（`.git/hooks/post-commit`）
   - 使用批准的内容创建 GitHub release
   - 确认发布成功
