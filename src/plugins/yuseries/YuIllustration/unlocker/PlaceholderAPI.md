@@ -1,5 +1,5 @@
 ---
-tag: ["Vanilla"]
+tag: ["PlaceholderAPI"]
 ---
 
 # Placeholder API
